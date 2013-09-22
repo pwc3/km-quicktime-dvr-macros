@@ -1,4 +1,4 @@
-km-quicktime-dvr-macros
-=======================
+This repo contains [Keyboard Maestro][km] macros to control QuickTime Player
+when using it as a DVR player.
 
-Keyboard Maestro macros for quick fast-forwards and rewinds in QuickTime Player.
+[km]: http://www.keyboardmaestro.com/
