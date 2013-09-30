@@ -18,6 +18,170 @@
 						<key>IsDisclosed</key>
 						<true/>
 						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>View</string>
+							<string>Subtitles</string>
+							<string>Off</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.QuickTimePlayerX</string>
+							<key>Name</key>
+							<string>QuickTime Player</string>
+							<key>NewFile</key>
+							<string>/Applications/QuickTime Player.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>395005269.69573802</real>
+				<key>Name</key>
+				<string>English Subtitles Off</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>37</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7E79F1FC-3E8F-4469-800F-602E798DC2B3</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>QuickTime Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.QuickTimePlayerX</string>
+					<key>Name</key>
+					<string>QuickTime Player</string>
+					<key>NewFile</key>
+					<string>/Applications/QuickTime Player.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>7A58C18C-EAA6-4EA9-B3DC-AFCC729A20D9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>View</string>
+							<string>Subtitles</string>
+							<string>English</string>
+						</array>
+						<key>StopOnFailure</key>
+						<true/>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.QuickTimePlayerX</string>
+							<key>Name</key>
+							<string>QuickTime Player</string>
+							<key>NewFile</key>
+							<string>/Applications/QuickTime Player.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>395005283.64066899</real>
+				<key>Name</key>
+				<string>English Subtitles On</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>37</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>448FB30A-7469-4D3F-B0F8-9E0AB34C92BB</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>QuickTime Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.QuickTimePlayerX</string>
+					<key>Name</key>
+					<string>QuickTime Player</string>
+					<key>NewFile</key>
+					<string>/Applications/QuickTime Player.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>7A58C18C-EAA6-4EA9-B3DC-AFCC729A20D9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
 						<string>60</string>
@@ -82,6 +246,87 @@
 		</dict>
 		<key>UID</key>
 		<string>7A58C18C-EAA6-4EA9-B3DC-AFCC729A20D9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>60</string>
+						<key>Variable</key>
+						<string>delta</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402116319.35253</real>
+				<key>Name</key>
+				<string>Fast Forward 1 Mintute</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>30</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>2304</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>07913198-CC1D-43BE-9CDC-09931FBA8355</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
 	</dict>
 	<dict>
 		<key>Activate</key>
@@ -196,6 +441,87 @@
 						<key>MacroActionType</key>
 						<string>ExecuteMacro</string>
 						<key>MacroUID</key>
+						<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402116325.91240501</real>
+				<key>Name</key>
+				<string>Fast Forward 2 Minutes</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>30</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>A7B9D222-8285-4428-B751-EEB3FAB1979D</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>300</string>
+						<key>Variable</key>
+						<string>delta</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
 						<string>CD985441-7526-45E6-88A9-CFDEC073BB57</string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
@@ -204,7 +530,7 @@
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>401517630.44660199</real>
+				<real>402199794.50484997</real>
 				<key>Name</key>
 				<string>Fast Forward 5 Minutes</string>
 				<key>Triggers</key>
@@ -244,6 +570,87 @@
 		</dict>
 		<key>UID</key>
 		<string>7A58C18C-EAA6-4EA9-B3DC-AFCC729A20D9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>300</string>
+						<key>Variable</key>
+						<string>delta</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402201301.69212103</real>
+				<key>Name</key>
+				<string>Fast Forward 5 Minutes</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>30</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>CD819D4F-E8B8-469C-B048-6065C654B6E0</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
 	</dict>
 	<dict>
 		<key>Activate</key>
@@ -344,6 +751,87 @@
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
+						<string>5</string>
+						<key>Variable</key>
+						<string>delta</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402116334.802854</real>
+				<key>Name</key>
+				<string>Fast Forward 5 Seconds</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>47</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>2304</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>06EB50DE-D469-4341-94A9-CB4657A9632C</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
 						<string>15</string>
 						<key>Variable</key>
 						<string>delta</string>
@@ -406,6 +894,87 @@
 		</dict>
 		<key>UID</key>
 		<string>7A58C18C-EAA6-4EA9-B3DC-AFCC729A20D9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>15</string>
+						<key>Variable</key>
+						<string>delta</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402116339.69121999</real>
+				<key>Name</key>
+				<string>Fast Forward 15 Seconds</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>47</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>777B3657-313D-45DD-91B3-1DA902AEB51E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
 	</dict>
 	<dict>
 		<key>Activate</key>
@@ -499,6 +1068,87 @@
 				<key>Actions</key>
 				<array>
 					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>30</string>
+						<key>Variable</key>
+						<string>delta</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402116344.78769898</real>
+				<key>Name</key>
+				<string>Fast Forward 30 Seconds</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>47</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>F23DBF51-8809-4427-8FB3-73A0527B664D</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
 						<key>DisplayKind</key>
 						<string>Window</string>
 						<key>IsActive</key>
@@ -524,9 +1174,9 @@
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>395016868.97608298</real>
+				<real>402116193.00778103</real>
 				<key>Name</key>
-				<string>Jump</string>
+				<string>QuickTime Jump</string>
 				<key>Triggers</key>
 				<array/>
 				<key>UID</key>
@@ -653,6 +1303,87 @@
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
+						<string>-60</string>
+						<key>Variable</key>
+						<string>delta</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402116350.562796</real>
+				<key>Name</key>
+				<string>Rewind 1 Minute</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>33</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>2304</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>B1ED8890-AE81-4AEB-BCA1-FDF019459C50</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
 						<string>-120</string>
 						<key>Variable</key>
 						<string>delta</string>
@@ -748,6 +1479,87 @@
 						<key>MacroActionType</key>
 						<string>ExecuteMacro</string>
 						<key>MacroUID</key>
+						<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402116355.57440299</real>
+				<key>Name</key>
+				<string>Rewind 2 Minutes</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>33</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>3F84EBA5-4CB1-445B-A0D9-45815C6FBF53</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>-300</string>
+						<key>Variable</key>
+						<string>delta</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
 						<string>CD985441-7526-45E6-88A9-CFDEC073BB57</string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
@@ -756,7 +1568,7 @@
 				<key>IsActive</key>
 				<true/>
 				<key>ModificationDate</key>
-				<real>401517609.348818</real>
+				<real>402199790.065777</real>
 				<key>Name</key>
 				<string>Rewind 5 Minutes</string>
 				<key>Triggers</key>
@@ -796,6 +1608,87 @@
 		</dict>
 		<key>UID</key>
 		<string>7A58C18C-EAA6-4EA9-B3DC-AFCC729A20D9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>-300</string>
+						<key>Variable</key>
+						<string>delta</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402201305.71908897</real>
+				<key>Name</key>
+				<string>Rewind 5 Minutes</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>33</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>4512B222-7BCA-4EC7-AFAC-942600916F76</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
 	</dict>
 	<dict>
 		<key>Activate</key>
@@ -896,6 +1789,87 @@
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
+						<string>-5</string>
+						<key>Variable</key>
+						<string>delta</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402116365.58258599</real>
+				<key>Name</key>
+				<string>Rewind 5 Seconds</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>43</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>2304</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>A6728DE4-7D95-4EF9-895D-8E9E89C245E4</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
 						<string>-15</string>
 						<key>Variable</key>
 						<string>delta</string>
@@ -977,6 +1951,87 @@
 						<key>MacroActionType</key>
 						<string>SetVariableToText</string>
 						<key>Text</key>
+						<string>-15</string>
+						<key>Variable</key>
+						<string>delta</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402116371.25734901</real>
+				<key>Name</key>
+				<string>Rewind 15 Seconds</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>43</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>F392BA8B-513D-45F3-8D5D-001DE4BDD8D2</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
 						<string>-30</string>
 						<key>Variable</key>
 						<string>delta</string>
@@ -1039,6 +2094,160 @@
 		</dict>
 		<key>UID</key>
 		<string>7A58C18C-EAA6-4EA9-B3DC-AFCC729A20D9</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>-30</string>
+						<key>Variable</key>
+						<string>delta</string>
+					</dict>
+					<dict>
+						<key>Count</key>
+						<integer>1</integer>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402116375.45798701</real>
+				<key>Name</key>
+				<string>Rewind 30 Seconds</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>43</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>2AB1F3FC-1F70-484D-A310-4865211F8B7B</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
+	</dict>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>tell application "Keyboard Maestro Engine"
+	set theJump to (process tokens "%Variable%delta%") as integer
+end tell
+tell application "VLC"
+	set theTime to current time
+	set current time to (theTime + theJump)
+end tell
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>402116308.55775797</real>
+				<key>Name</key>
+				<string>VLC Jump</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>B4045B9C-ADD0-4A99-A0EE-43D44B8F7A1E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>VLC Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>org.videolan.vlc</string>
+					<key>Name</key>
+					<string>VLC</string>
+					<key>NewFile</key>
+					<string>/Applications/VLC.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>9781805E-D891-4202-88C8-9840BE0EA6D7</string>
 	</dict>
 </array>
 </plist>
